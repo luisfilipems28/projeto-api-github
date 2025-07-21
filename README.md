@@ -10,4 +10,4 @@ Criação da API de usuário do GitHub por meio de HTML5, CSS3, e JavaScript.
 
 - O projeto da API do GitHub há alguns meses atrás parecia, para mim, não fazer sentido algum, o que hoje(20/07/2025, dia da finalização) já consigo ver com muita clareza.
 
-No mais é isso, qualquer critica que venha acrescentar no projeto, é só acessar: *www.linkedin.com/in/luisfilipems28*
+No mais é isso, qualquer crítica que venha acrescentar no projeto, é só acessar: *www.linkedin.com/in/luisfilipems28*
