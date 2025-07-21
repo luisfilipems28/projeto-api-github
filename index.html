@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API GitHub</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="shortcut icon"
+      href="imagens/github_icon.png"
+      type="image/x-icon"
+    />
+    <script src="src/index.js" async></script>
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img src="imagens/github_cat.png" alt="" />
+      </picture>
+    </header>
+    <main>
+      <div class="form-container">
+        <form class="search">
+          <h1>Pesquisador de Usuários</h1>
+          <input
+            type="text"
+            id="username"
+            placeholder="Buscar por nome do usuário"
+            class="username-input"
+          />
+          <button type="submit">Buscar</button>
+        </form>
+      </div>
+      <section class="user-container hide">
+        <div class="user-data-content">
+          <img src="" alt="" class="user-avatar" />
+        </div>
+        <div class="user-data">
+          <div class="user-info">
+            <strong>Nome:</strong>
+            <span class="user-name"></span>
+          </div>
+          <div class="user-info">
+            <strong>Username:</strong>
+            <span class="user-login"></span>
+          </div>
+          <div class="user-info">
+            <strong>Seguidores:</strong>
+            <span class="user-followers"></span>
+          </div>
+          <div class="user-info">
+            <strong>Biografia:</strong>
+            <span class="user-bio"></span>
+          </div>
+        </div>
+
+        <div class="user-repo-container">
+          <h2>Repositórios atualizados recentemente</h2>
+          <ul class="user-repo-content">
+            <li class="user-repo">
+              <header>
+                <strong class="repo-title"></strong>
+                <a href="" class="repo-link" target="_blank">Ir para o Repo</a>
+              </header>
+            </li>
+            <li class="user-repo">
+              <header>
+                <strong class="repo-title"></strong>
+                <a href="" class="repo-link" target="_blank">Ir para o Repo</a>
+              </header>
+            </li>
+            <li class="user-repo">
+              <header>
+                <strong class="repo-title"></strong>
+                <a href="" class="repo-link" target="_blank">Ir para o Repo</a>
+              </header>
+            </li>
+            <li class="user-repo">
+              <header>
+                <strong class="repo-title"></strong>
+                <a href="" class="repo-link" target="_blank">Ir para o Repo</a>
+              </header>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
